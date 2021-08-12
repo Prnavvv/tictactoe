@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Rubik:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #2d283e;
+}
+
+
+.head{
+    height: 80px;
+    width: 100vw;
+    color: #d1d7e0;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 60px;
+    
+}
+
+#rules{
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    color: #d1d7e0;
+}
+/*
+.container{
+    height: 350px;
+    width: 350px;
+    display: grid;
+    
+}*/
+
+
+.cards {
+    display: flex;
+
+    /* Put a card in the next row when previous cards take all width */
+    flex-wrap: wrap;
+
+  /*  margin-left: -8px;
+    margin-right: -8px;*/
+
+    height: 300px;
+    width: 350px;
+    margin: auto;
+    margin-top: 160px;
+   /* border: 5px solid white;*/
+}
+
+.block{
+    
+    border: 0;
+    height: 100px;
+    width: 100px;
+    background-color: #802bb1;
+  /* background-color: #0b9ed0;*/
+    border-color: #802bb1;
+    border-style: hidden;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: xxx-large;
+    caret-color: transparent;
+    color: white;
+
+}
+
+
+.footer{
+    height: 40px;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #4c495d;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+
+}
+
